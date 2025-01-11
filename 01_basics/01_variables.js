@@ -7,7 +7,7 @@ let accountState;
 // accountId = 2 // not allowed
 
 
-accountEmail = "hc@hc.com"
+Email = "hc@hc.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
 
@@ -19,4 +19,4 @@ because of issue in block scope and functional scope
 */
 
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+console.table([accountId, Email, accountPassword, accountCity, accountState])
